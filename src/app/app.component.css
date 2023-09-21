@@ -1,0 +1,74 @@
+.layout{
+    background: linear-gradient(to left, #c738d6,#c046e7,#717ede,#717ede);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_form{
+    background-color: white;
+    padding: 50px 30px;
+    border-radius: 14px;
+    width: 350px;
+    height: 550px;
+}
+.login_form form{
+    display: flex;
+    flex-direction: column;
+}
+.login_form form .box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    position: relative;
+}
+.login_form form .box label{
+    font-size: 12px;
+}
+.login_form form .box input{
+   border: none;
+   border-bottom: 1px solid rgb(187, 184, 184);
+   outline-color: transparent;
+   padding-left: 30px;
+
+}
+::placeholder{
+    color: rgb(187, 184, 184);
+    font-size: 13px;
+}
+.icon {
+    position: absolute;
+    top: 38%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+.icon2 {
+    position: absolute;
+    top: 70%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.forget{
+    text-decoration: none;
+    float: right;
+
+}
+.submittedBtn{
+    background: linear-gradient(to left, #de50ec,#a390e1,#7bb8e0,#62cddc);
+    border: none;
+    border-radius: 30px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;    
+}
+.social p{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.social p:hover{
+    color: black;
+}
+
